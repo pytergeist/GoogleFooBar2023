@@ -52,7 +52,7 @@ def solution(i):
         i (int): The starting index from where to extract the 5-digit substring.
 
     Returns:
-        str: The 5-digit substring starting at index n.
+        str: The 5-digit substring starting at index i.
     """
     # Calculate the necessary string length to include the index and the 5 digits.
     needed_length = i + 5
