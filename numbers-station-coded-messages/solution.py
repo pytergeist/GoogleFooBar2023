@@ -21,7 +21,6 @@ def solution(l, t):
 
     """
 
-    # Input validation
     if not l:
         raise ValueError("The input list `l` must not be empty.")
     if any(type(num) != int or num <= 0 for num in l):
