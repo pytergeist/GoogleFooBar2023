@@ -43,9 +43,9 @@ def get_primes_string(max_length):
 
 
 def solution(i):
-    """Finds the substring of the first 'n' concatenated prime numbers.
+    """Finds the substring of the first 'i' concatenated prime numbers.
 
-    Given an index n, this function generates a string of concatenated prime numbers
+    Given an index i, this function generates a string of concatenated prime numbers
     and returns a substring of length 5 starting from that index.
 
     Args:
